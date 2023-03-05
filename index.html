@@ -6,6 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Yashaswi Shah - Personal Site</title>
     <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+    />
+    <script defer src="script.js"></script>
   </head>
   <body>
     <div id="header">
@@ -15,29 +20,217 @@
             <a class="box" href="#">Home</a>
           </li>
           <li class="list-item">
-            <a class="box" href="#">About</a>
+            <a class="box" href="#about">About</a>
           </li>
           <li class="list-item">
-            <a class="box" href="#">Projects</a>
+            <a class="box" href="#project">Projects</a>
           </li>
           <li class="list-item">
-            <a class="box" href="#">Resume</a>
+            <a class="box" href="#resume">Resume</a>
           </li>
           <li class="list-item">
             <a class="box" href="#">Contact</a>
           </li>
         </ul>
       </nav>
-      <div>
-      <div class = "main-content">
-      <div class = "home-content">
-        <h1><p><span>
-          Hi! I am Yashaswi Shah
-        </span><br>
-        I am pursing Masters in Computer Science at Portland State University.
-        On this website you will find some of my academic projects, work experience and resume.</p></h1>
-      </div>
     </div>
+
+    <div class="main-content">
+      <div class="home-content">
+        <h1>
+          <p>
+            <span> Hi! I am Yashaswi Shah. </span><br />
+            I am pursing Masters in Computer Science at Portland State
+            University. On this website you will find some of my academic
+            projects, work experience and resume.
+          </p>
+        </h1>
+      </div>
+      <section id="about">
+        <h2>About</h2>
+        <div class="about-content">
+          <div class="picture">
+            <img
+              src="../webdevelpment_project/images/Yashaswi_Shah_Portfolio.jpg"
+              alt="profile picture of Yashaswi Shah"
+              width="400"
+              height="400"
+            />
+          </div>
+          <div class="info">
+            I am a graduate student at Portland State Univeristy with
+            speclization in Artifical Intelligence and Machine Learning. At PSU,
+            I enjoyed studying AI, ML, Databases and Web Development. I
+            completed my undergraduate in computer science. I have a few years
+            of experience working as an Automation Test Engineer. In my free
+            time, I like watching TV shows, cooking and hiking. I like cooking,
+            hiking, binge watching. I like watching Mystery / Thriller movies
+            and TV shows. Mostly, I like to cook comfort food and try out new
+            recipes.
+          </div>
+        </div>
+      </section>
+      <!-----Resume---->
+      <section id = "resume">
+        <h2>Resume</h2>
+        <div class = "download" id = "download">
+          <a href="../webdevelpment_project/resume/CV_Yashaswi.pdf" download="CV_Yashaswi"  >Download Resume</a>
+
+
+        </div>
+        <div class = "resume-content">
+          <div class = "education">
+            
+            <ul class = "resume_ul">
+              <h4>Education</h4>
+              <li class = "resume_li">
+                <p>2022-present</p>
+                <h5>Portland State University</h5>
+                <h6>Masters in Computer Science</h6>
+              </li>
+              <li class = "resume_li">
+                <p>2012-2016</p>
+                <h5>Mahatma Gandhi College of Engineering, Nanded, Maharashtra, India</h5>
+                <h6>Bachelor of Engineering in Computer Science</h6>
+              </li>
+            </ul>
+          </div>
+          <div class = "experience">
+            
+            <ul class = "resume_ul">
+              <h4>Work Experience</h4>
+              <li class = "resume_li">
+                <p>2019-2022</p>
+                <h5>Portland State University</h5>
+                <h6>Masters in Computer Science</h6>
+              </li>
+              <li class = "resume_li">
+                <p>2016-2019</p>
+                <h5>Mahatma Gandhi College of Engineering, Nanded, Maharashtra, India</h5>
+                <h6>Bachelor of Engineering in Computer Science</h6>
+              </li>
+            </ul>
+          </div>
+
+        </div>
+      </section>
+      
+
+      <!--- Project ---->
+      <section id="project">
+        <h2>Projects</h2>
+        <div class="container w-100">
+          <div class="row">
+            <div class="col-md-6 col-lg-4 mb-4">
+              <div class="card h-100">
+                <div class="header p-2 fw-bold">Project 1</div>
+                <img
+                  class="card-img"
+                  src="../webdevelpment_project/images/KNN.png"
+                  alt="Card image cap"
+                  width="200"
+                  height="200"
+                />
+                <div class="card-body">
+                  <h5 class="card-title fw-bold">
+                    <a href="#">KNN Classifer</a>
+                  </h5>
+                  <p class="card-text">
+                    K Nearest Neighbours(KNN) is a supervised learning algorithm
+                    used for classification and regression predictive problems.
+                    It is generally used for classification and uses
+                    non-parametric algorithm. In this project KNN is implemented
+                    in python for breast cancer detection.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 mb-4">
+              <div class="card h-100">
+                <div class="header p-2 fw-bold">Project 3</div>
+                <img
+                  class="card-img-top"
+                  src="../webdevelpment_project/images/shopping.png"
+                  alt="Card image cap"
+                  width="200"
+                  height="200"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">
+                    <a href="#">Shopping Website Prodcut Database</a>
+                  </h5>
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4 mb-4">
+              <div class="card h-100">
+                <div class="header p-2 fw-bold">Project 3</div>
+                <img
+                  class="card-img-top"
+                  src="../webdevelpment_project/images/gd.png"
+                  alt="Card image cap"
+                  width="200"
+                  height="200"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">
+                    <a href="#">Three Level Password Authentication</a>
+                  </h5>
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!----------------FORM-------------------->
+      <section id="contact">
+        <h2>Contact Me</h2>
+        <form>
+          <div class="mb-3 row form-group">
+            <label for="username" class="col-md-4  col-form-label"
+              >Username:</label
+            >
+            <div class="col-md-8 ">
+              <input type="text" class="form-control" id="username" />
+            </div>
+          </div>
+          <div class="mb-3 row form-group">
+            <label for="email" class="col-md-4  col-form-label"
+              >Email:</label
+            >
+            <div class="col-md-8 ">
+              <input type="email" class="form-control" id="email" />
+            </div>
+          </div>
+         
+          <div class="form-group">
+            <label for="message">Example textarea</label>
+            <textarea class="form-control" id="message" rows="3" placeholder="Enter your message"></textarea>
+          </div>
+          <div class="row mt-2 mb-2">
+            <div class="d-flex justify-content-center row">
+              <button type="submit" class="btn btn-primary col-4 mx-1">
+                Submit
+              </button>
+              <button type="reset" class="btn btn-secondary col-4 mx-1 ">
+                Reset
+              </button>
+            </div>
+          </div>
+        </form>
+
+      </section>
     </div>
   </body>
 </html>

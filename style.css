@@ -19,16 +19,16 @@
     --red: #ff0000;
     --orange: #ffa500;
     --green: #006400;
+    --indigo: #6357E0;
   }
 
   .ul_class {
     margin: 0;
     padding: 0;
     display: flex;
-    flex-wrap: nowrap;
-    flex-direction: row;
     justify-content: right;
-    background-color: var(--purple);
+    background-color: var(--indigo);
+    
   }
 
   .list-item {
@@ -38,10 +38,11 @@
   .box {
     display: block;
     text-decoration: none;
-    padding: 10px 20px;
+    padding: 20px 40px;
     color: var(--white);
     font-size: 1.2em;
     text-align: left;
+    
   }
 
 
@@ -59,18 +60,75 @@
 
   .main-content{
     margin: 20px;
+    padding: 10%;
   }
+
   .home-content {
     padding-left: 20%;
     padding-right: 20%;
     padding-top: 20px;
     text-align: left;
     margin-Top: 25%;
-    
-    
-    
-    
   }
+
+  h2{
+    align-items: left;
+    padding-bottom: 10px;
+    font-size: 30px;
+  }
+
+  .about-content {
+    display: grid;
+    grid-template-columns: 1fr 2fr ;
+    grid-gap: 10px;
+
+  }
+
+  .info{
+    font-size: 1.5em;
+  }
+
+
+/*--------resume------------*/
+.resume-content{
+  display: grid;
+  grid-template-columns: 1fr 1fr ;
+  grid-gap: 10px;
+}
+
+.resume_ul{
+  list-style-type: none;
+  
+}
+h4{
+  color: indigo;
+  font-weight: 900;
+  
+  
+ 
+}
+
+.resume_li{
+  position: relative;
+  padding: 20px;
+  border: 1px solid #eaeaea;
+  background-color: #ffffff;
+  cursor: pointer;
+  transition: all 0.4s;
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+
+.resume_li:hover{
+  box-shadow: 0px 3px 12px 0px #ccc;
+  border: 1px solid transparent;
+}
+
+
+
+
+
+  
 
  
 
