@@ -10,7 +10,13 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
     /-->
-    
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,300;1,400&display=swap"
+      rel="stylesheet"
+    />
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
@@ -19,36 +25,34 @@
     <script defer src="script.js"></script>
   </head>
   <body>
-    <div id="header">
-      <nav class = "navbar">
-      
-        <ul class="ul_class">
-          <li class="list-item">
-            <a class="box" href="#">Home</a>
-          </li>
-          <li class="list-item">
-            <a class="box" href="#about">About</a>
-          </li>
-          <li class="list-item">
-            <a class="box" href="#project">Projects</a>
-          </li>
-          <li class="list-item">
-            <a class="box" href="#resume">Resume</a>
-          </li>
-          <li class="list-item">
-            <a class="box" href="#">Contact</a>
-          </li>
-        </ul>
-        <div class = "hamburger">
-          <span class = "bar"></span>
-          <span class = "bar"></span>
-          <span class = "bar"></span>
-          
-          
-          
-        </div>
-      </nav>
-    </div>
+    <header>
+      <div id="header">
+        <nav>
+          <ul class="ul_class">
+            <li class="list-item">
+              <a class="box" href="#">Home</a>
+            </li>
+            <li class="list-item">
+              <a class="box" href="#about">About</a>
+            </li>
+            <li class="list-item">
+              <a class="box" href="#project">Projects</a>
+            </li>
+            <li class="list-item">
+              <a class="box" href="#resume">Resume</a>
+            </li>
+            <li class="list-item">
+              <a class="box" href="#">Contact</a>
+            </li>
+          </ul>
+          <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </div>
+        </nav>
+      </div>
+    </header>
 
     <div class="main-content">
       <div class="home-content">
@@ -59,46 +63,42 @@
           experience and resume.
         </p>
       </div>
-      <section id="about">
-        <h2>About</h2>
-        <div>
-          <div class="about-content">
-            <div class="picture">
-              <img
-                src="../webdevelpment_project/images/Yashaswi_Shah_Portfolio.jpg"
-                alt="profile picture of Yashaswi Shah"
-                width="400"
-                height="400"
-              />
-            </div>
-            <div class="info">
-              <p>
-                I am a graduate student at Portland State Univeristy with
-                speclization in Artifical Intelligence and Machine Learning. At
-                PSU, I enjoyed studying AI, ML, Databases and Web Development. I
-                completed my undergraduate in computer science. I have a few
-                years of experience working as an Automation Test Engineer.
-              </p>
-              <p>
-                I like cooking, hiking, binge watching. I like watching Mystery
-                / Thriller movies and TV shows. Mostly, I like to cook comfort
-                food and try out new recipes.
-              </p>
+      <div>
+        <section id="about">
+          <h2>About</h2>
+          <div>
+            <div class="about-content">
+              <div class="picture">
+                <img
+                  src="../webdevelpment_project/images/Yashaswi_Shah_Portfolio.jpg"
+                  alt="profile picture of Yashaswi Shah"
+                  width="400"
+                  height="400"
+                />
+              </div>
+              <div class="info">
+                <p>
+                  I am a graduate student at Portland State Univeristy with
+                  speclization in Artifical Intelligence and Machine Learning.
+                  At PSU, I enjoyed studying AI, ML, Databases and Web
+                  Development. I completed my undergraduate in computer science.
+                  I have a few years of experience working as an Automation Test
+                  Engineer.
+                </p>
+                <p>
+                  I like cooking, hiking, binge watching. I like watching
+                  Mystery / Thriller movies and TV shows. Mostly, I like to cook
+                  comfort food and try out new recipes.
+                </p>
+              </div>
             </div>
           </div>
-        </div>
-      </section>
+        </section>
+      </div>
       <!-----Resume---->
       <section id="resume">
         <h2>Resume</h2>
-        <div class="resume-content">
-          <div class="download" id="download">
-            <a
-              href="../webdevelpment_project/resume/CV_Yashaswi.pdf"
-              download="CV_Yashaswi"
-              >Resume</a
-            >
-          </div>
+        
           <div class="education">
             <ul class="resume_ul">
               <h4>Education</h4>
@@ -111,7 +111,6 @@
                 <h5>Mahatma Gandhi College of Engineering,India</h5>
                 <h6>Bachelor of Engineering in Computer Science</h6>
                 <h8>2012 - 2016</h8>
-
               </li>
             </ul>
           </div>
@@ -143,12 +142,24 @@
                     data-bs-parent="#accordionFlushExample"
                   >
                     <div class="accordion-body">
-                      <ul class = "exp_ul">
-                        <li class = "exp_li">Experience in API testing in Postman, developed and executed backens API scripts</li>
-                        <li class = "exp_li" >Development and maintained scripts in Qualitia for web applications and UFT for desktop applications based on functionality</li>
-                        <li class = "exp_li">Responsible for unit testing in Python</li>
-                        <li class = "exp_li">Scheduled and executed test scripts in Jenkins and Azure DevOps</li>
-                    </ul>
+                      <ul class="exp_ul">
+                        <li class="exp_li">
+                          Experience in API testing in Postman, developed and
+                          executed backens API scripts
+                        </li>
+                        <li class="exp_li">
+                          Development and maintained scripts in Qualitia for web
+                          applications and UFT for desktop applications based on
+                          functionality
+                        </li>
+                        <li class="exp_li">
+                          Responsible for unit testing in Python
+                        </li>
+                        <li class="exp_li">
+                          Scheduled and executed test scripts in Jenkins and
+                          Azure DevOps
+                        </li>
+                      </ul>
                     </div>
                   </div>
                 </div>
@@ -176,19 +187,29 @@
                     data-bs-parent="#accordionFlushExample"
                   >
                     <div class="accordion-body">
-                      <ul class = "exp_ul">
-                        <li class = "exp_li">Experience in building automation scripts for regression using Selenium data driven framework and page object model</li>
-                        <li class = "exp_li" >Tested UI and functional features using black box testing</li>
-                        <li class = "exp_li">Prepared requirement analysis, business requirement document, documenting Test
-                          Procedures, Test Scenarios and Test Data</li>
-                    </ul>
+                      <ul class="exp_ul">
+                        <li class="exp_li">
+                          Experience in building automation scripts for
+                          regression using Selenium data driven framework and
+                          page object model
+                        </li>
+                        <li class="exp_li">
+                          Tested UI and functional features using black box
+                          testing
+                        </li>
+                        <li class="exp_li">
+                          Prepared requirement analysis, business requirement
+                          document, documenting Test Procedures, Test Scenarios
+                          and Test Data
+                        </li>
+                      </ul>
                     </div>
                   </div>
                 </div>
               </div>
             </ul>
           </div>
-        </div>
+       
       </section>
 
       <!--- Project ---->
@@ -304,39 +325,40 @@
       </section>
     </div>
     <footer>
-      <div class = "social_media">
-        <a herf = "https://www.linkedin.com/in/yashaswi-shah-b30ba9153">
-          <img 
-          src="../webdevelpment_project/images/linkedin-alt.svg"
-          alt="profile picture of Yashaswi Shah"
-          width="50"
-          height="50"
-          >
+      <div class="social_media">
+        <a
+          href="https://www.linkedin.com/in/yashaswi-shah-b30ba9153/"
+          target="_blank"
+          class="logo"
+        >
+          <img
+            src="../webdevelpment_project/images/linkedin-alt.svg"
+            alt="profile picture of Yashaswi Shah"
+            width="50"
+            height="50"
+          />
         </a>
-        <a herf = "https://www.instagram.com/yashasw_">
-          <img 
-          src="../webdevelpment_project/images/instagram.svg"
-          alt="profile picture of Yashaswi Shah"
-          width="50"
-          height="50"
-          >
+        <a
+          href="https://www.instagram.com/yashasw_"
+          target="_blank"
+          class="logo"
+        >
+          <img
+            src="../webdevelpment_project/images/instagram.svg"
+            alt="profile picture of Yashaswi Shah"
+            width="50"
+            height="50"
+          />
         </a>
-        <a herf = "https://github.com/Yashaswi0506">
-          <img 
-          src="../webdevelpment_project/images/github-alt.svg"
-          alt="profile picture of Yashaswi Shah"
-          width="50"
-          height="50"
-          >
+        <a href="https://github.com/Yashaswi0506" target="_blank" class="logo">
+          <img
+            src="../webdevelpment_project/images/github-alt.svg"
+            alt="profile picture of Yashaswi Shah"
+            width="40"
+            height="40"
+          />
         </a>
-        
-
-
       </div>
-    
     </footer>
-
-
-    
   </body>
 </html>

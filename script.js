@@ -14,21 +14,12 @@ document.querySelectorAll(".box").forEach(n => n.addEventListener("click", () =>
     navsub.classList.remove("active");
   }))
 
+  
 
 
 
-window.onscroll = function() {scrollFunction()};
 
 
-function scrollFunction() {
-  if (document.body.scrollTop > 1 || document.documentElement.scrollTop > 1) {
-    navsub.style.top = '0';
-    
-    
-  } else {
-    navsub.style.top = '-50px';
-  }
-} 
 
 
 submit.addEventListener('click', handleClick);
