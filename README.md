@@ -17,12 +17,17 @@ Web Development Project
 
 ----------To DO---------
 1. form size
-2. image size
+2. 
 3. font
-4. icons
+4. 
 6. bootstrap
+7. Resume
+8. Projects
+9. Form
 
 
 
 ---done---
 hamburger
+image size - done
+icons
