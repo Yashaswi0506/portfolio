@@ -125,9 +125,34 @@ section > h2 {
   padding: 0 20px;
 }
 
-.resume_ul {
-  list-style-type: none;
+
+.accordion-button>span{
+  
+  padding-bottom: 2px;
+  font-size: 1.25rem;
+  padding-top: 2px;
+  padding-left: 1px;
+  
+  
+  
 }
+
+.two{
+  
+  font-size: 1rem;
+  padding-left: 1px;
+  padding-bottom: 10px;
+  white-space: pre;
+}
+
+.three{
+  
+  font-size: 1rem;
+  padding-left: 1px;
+  padding-bottom: 2px;
+}
+
+
 
 .resume_li {
   position: relative;
@@ -186,6 +211,12 @@ section > h2 {
 .card-body>a:active{
   background-color: var(--indigo3);
   color: black;
+}
+
+.card > img{
+  height: 100%;
+  width: 100%; 
+  object-fit: cover
 }
 
 
@@ -343,21 +374,25 @@ footer {
     font-size: 25px;
   }
   .home-content > p {
-    font-size: 1.2em;
+    font-size: 1em;
   }
   .logo > img {
     width: 35px;
     height: 35px;
   }
-  h5{
-    font-size: 21px;
+
+  
+  .one{
+    font-size: 1,25rem;
+    
+
   }
 
-  h6{
-    font-size: 19px;
+  .two{
+    font-size: 15px;
   }
 
-  h8{
+  .three{
     font-size: 15px;
   }
 
@@ -405,22 +440,22 @@ footer {
    h3 {
     font-size: 20px;
   }
-  h5{
+  .one{
     font-size: 16px;
   }
 
-  h6{
+  .two{
     font-size: 14px;
   }
 
-  h8{
-    font-size: 10px;
+  .three{
+    font-size: 14px;
   }
 
   
   
   .home-content > p {
-    font-size: 1em;
+    font-size: 0.9em;
   }
 
  

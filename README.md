@@ -31,3 +31,6 @@ Web Development Project
 hamburger
 image size - done
 icons
+
+---Issues----
+1. html : button not compatible with div

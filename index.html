@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Yashaswi Shah - Personal Site</title>
-    
+
     <!--link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
@@ -43,7 +43,7 @@
               <a class="box" href="#resume">Resume</a>
             </li>
             <li class="list-item">
-              <a class="box" href="#">Contact</a>
+              <a class="box" href="#contact">Contact</a>
             </li>
           </ul>
           <div class="hamburger">
@@ -102,22 +102,22 @@
 
         <div class="education">
           <h3>Education</h3>
-          <ul class="resume_ul">
-            <li class="resume_li">
+          <div class="resume_ul">
+            <div class="resume_li">
               <h5>Portland State University</h5>
               <h6>Masters in Computer Science</h6>
-              <h8>2022-present</h8>
-            </li>
-            <li class="resume_li">
+              <h6>2022-present</h6>
+            </div>
+            <div class="resume_li">
               <h5>Mahatma Gandhi College of Engineering,India</h5>
               <h6>Bachelor of Engineering in Computer Science</h6>
-              <h8>2012 - 2016</h8>
-            </li>
-          </ul>
+              <h6>2012 - 2016</h6>
+            </div>
+          </div>
         </div>
         <div class="experience">
           <h3>Work Experience</h3>
-          <ul class="resume_ul">
+          <div class="resume_ul">
             <div class="accordion accordion-flush" id="accordionFlushExample">
               <div class="accordion-item border">
                 <h2 class="accordion-header" id="flush-headingOne">
@@ -129,12 +129,15 @@
                     aria-expanded="false"
                     aria-controls="flush-collapseOne"
                   >
-                    <div>
-                      <h5>Zensoft Services, India</h5>
-                      <h6>Senior Engineer QA</h6>
-                      <h8>2019 - 2022</h8>
-                    </div>
-                  </button>
+                 <span>
+                  Zensoft Services, India -   Senior Engineer QA<br>
+                  <br>
+                  2019 - 2022
+                  </span>
+                    
+                 
+                
+              </button>
                 </h2>
                 <div
                   id="flush-collapseOne"
@@ -174,11 +177,9 @@
                     aria-expanded="false"
                     aria-controls="flush-collapseTwo"
                   >
-                    <div>
-                      <h5>Tech Mahindra, India</h5>
-                      <h6>Software Engineer</h6>
-                      <h8>2016 - 2019</h8>
-                    </div>
+                    <span>Tech Mahindra, India - Software Engineer QA<br>
+                    <br>
+                    2016 - 2019</span>
                   </button>
                 </h2>
                 <div
@@ -208,9 +209,10 @@
                 </div>
               </div>
             </div>
-          </ul>
+          </div>
         </div>
       </section>
+     
 
       <!--- Project ---->
       <section id="project">
@@ -220,9 +222,12 @@
             <div class="col-lg-4 mb-4">
               <div class="card h-100">
                 <div class="header p-2 fw-bold">Project 1</div>
-                <img class="card-img-top"
-                src="../webdevelpment_project/images/KNN.jpg" alt="Card image
-                cap" width: 100%; height: 100%; object-fit: cover; />
+                <img
+                  class="card-img-top"
+                  src="../webdevelpment_project/images/KNN.jpg"
+                  alt="Card image
+                cap"
+                />
                 <div class="card-body">
                   <h5 class="card-title">KNN Classifer</h5>
 
@@ -239,15 +244,20 @@
             <div class="col-lg-4 mb-4">
               <div class="card h-100">
                 <div class="header p-2 fw-bold">Project 2</div>
-                <img class="card-img-top"
-                src="../webdevelpment_project/images/shopping.png" alt="Card
-                image cap" width: 100%; height: 100%; object-fit: cover; />
+                <img
+                  class="card-img-top"
+                  src="../webdevelpment_project/images/shopping.png"
+                  alt="Card
+                image cap"
+                />
                 <div class="card-body">
                   <h5 class="card-title">Online Shopping Prodcut Database</h5>
 
                   <p class="card-text">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
+                    This project contains normalized products, customers and
+                    orders database of a clothing application with views and
+                    triggers and visualizations. The Postgresql can be triggered
+                    are executed in python.
                   </p>
                   <a
                     href="https://github.com/Yashaswi0506/Online-Shopping-Product-Database"
@@ -262,14 +272,20 @@
             <div class="col-lg-4 mb-4">
               <div class="card h-100">
                 <div class="header p-2 fw-bold">Project 3</div>
-                <img class="card-img-top"
-                src="../webdevelpment_project/images/chatbot.jpg" alt="Card
-                image cap" width: 100%; height: 100%; object-fit: cover; />
+                <img
+                  class="card-img-top"
+                  src="../webdevelpment_project/images/chatbot.jpg"
+                  alt="Card
+                image cap"
+                />
                 <div class="card-body">
                   <h5 class="card-title">College Enquiry Chatbot</h5>
                   <p class="card-text">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
+                    The College bot is an application that answers users’
+                    queries. The System takes user input , processes the query
+                    using stemming porter algorithm and searches the answer in
+                    the database using keywords extracted by porter stemming
+                    algorithm
                   </p>
                   <a
                     href="https://github.com/Yashaswi0506/College-Enquiry-Chatbot"

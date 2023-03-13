@@ -7,6 +7,26 @@ const navsub = document.querySelector(".ul_class");
 var error = document.querySelector('#error')
 const reset =  document.querySelector('#reset')
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 hamburger.addEventListener('click', () => {
     console.log("changing");
     navsub.classList.toggle("active");
