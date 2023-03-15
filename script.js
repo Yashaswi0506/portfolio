@@ -8,7 +8,6 @@ var error = document.querySelector("#error");
 const reset = document.querySelector("#reset");
 
 hamburger.addEventListener("click", () => {
-  console.log("changing");
   navsub.classList.toggle("active");
 });
 
@@ -24,6 +23,7 @@ function handleClick(event) {
   console.log("Hello");
   error.textContent = "";
 
+
   if (username.value === "" || username.value === null) {
     event.preventDefault();
     error.innerHTML += "Enter Username<br>";
@@ -37,14 +37,15 @@ function handleClick(event) {
   }
 
   if (
-    message.value.length < 10 ||
+    message.value.length < 5 ||
     message.value === "" ||
     message.value === null
   ) {
-    event.preventDefault();
-    error.innerHTML += "Enter atleast 10 words<br>";
+    
+    error.innerHTML += "Enter atleast 5 words<br>";
     error.style.color = "red";
   }
+  
 }
 reset.addEventListener("click", handleClick1);
 function handleClick1(event) {
