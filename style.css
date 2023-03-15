@@ -1,7 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: 'Mukta', sans-serif;
 }
 
 :root {
@@ -137,10 +137,12 @@ h3 {
 .head2,
 .year {
   font-size: 18px;
+  font-weight: 300;
 }
 
 .exp_li {
   font-size: 1em;
+  font-weight: 300;
 }
 
 .accordion-button > span {
@@ -151,7 +153,6 @@ h3 {
 }
 
 .resume_li {
-  
   padding: 20px;
   border: 1px solid var(--indigo3);
   background-color: var(--white);
@@ -225,7 +226,7 @@ h3 {
 }
 .card-body > a:hover {
   background-color: var(--indigo3);
-  color: black;
+  color: var(--black);
 }
 
 .card-img-top {
@@ -236,17 +237,17 @@ h3 {
 
 .card-body > a:active {
   background-color: var(--indigo3);
-  color: black;
+  color: var(--black);
 }
 
 .card-body > a:focus {
   background-color: var(--indigo3);
-  color: black;
+  color: var(--black);
 }
 
 .card-body > a:active {
   background-color: var(--indigo3);
-  color: black;
+  color: var(--black);
 }
 
 /*--------------------Form-----*/
@@ -257,23 +258,23 @@ form {
 }
 
 .form-group > label {
-  color: #6357e0;
+  color: var(--indigo);
   font-size: 18px;
 }
 
 .btn-form > .btn-primary:hover {
   background-color: var(--indigo3);
-  color: black;
+  color: var(--black);
 }
 
 .btn-form > .btn-primary:focus {
   background-color: var(--indigo3);
-  color: black;
+  color: var(--black);
 }
 
 .btn-form > .btn-primary:active {
   background-color: var(--indigo3);
-  color: black;
+  color: var(--black);
 }
 
 .btn-form > .btn-primary {
@@ -310,8 +311,6 @@ footer {
   justify-content: flex-end;
 }
 
-
-
 /*---------------media queries-------------*/
 @media (max-width: 757px) {
   .main-content {
@@ -337,11 +336,10 @@ footer {
   }
 
   .picture > img {
-    
-      height: 55%;
-      width: 55%;
-     }
-  
+    height: 55%;
+    width: 55%;
+  }
+
   h1,
   h3 {
     font-size: 22px;
@@ -512,6 +510,3 @@ footer {
     width: 100%;
   }
 }
-
-
-

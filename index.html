@@ -5,18 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Yashaswi Shah - Personal Site</title>
-
-    <!--link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
-    /-->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,300;1,400&display=swap"
-      rel="stylesheet"
-    />
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@300;400&display=swap" rel="stylesheet"> 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
@@ -31,16 +22,16 @@
         <nav class>
           <ul class="ul_class">
             <li class="list-item">
-              <a class="box" href="#">Home</a>
+              <a class="box" href="#home">Home</a>
             </li>
             <li class="list-item">
               <a class="box" href="#about">About</a>
             </li>
             <li class="list-item">
-              <a class="box" href="#project">Projects</a>
+              <a class="box" href="#resume">Resume</a>
             </li>
             <li class="list-item">
-              <a class="box" href="#resume">Resume</a>
+              <a class="box" href="#project">Projects</a>
             </li>
             <li class="list-item">
               <a class="box" href="#contact">Contact</a>
@@ -54,16 +45,17 @@
         </nav>
       </div>
     </header>
-
     <div class="main-content">
-      <div class="home-content">
-        <h1>Hi! I am Yashaswi Shah (She/Her).</h1>
-        <p>
-          I am pursing Masters in Computer Science at Portland State University.
-          On this website you will find some of my academic projects, work
-          experience and resume.
-        </p>
-      </div>
+      <section id="home">
+        <div class="home-content">
+          <h1>Hi! I am Yashaswi Shah (She/Her).</h1>
+          <p>
+            I am pursing Masters in Computer Science at Portland State
+            University. On this website you will find some of my academic
+            projects, work experience and resume.
+          </p>
+        </div>
+      </section>
       <div>
         <section id="about">
           <h2>About</h2>
@@ -84,7 +76,8 @@
                   At PSU, I enjoyed studying AI, ML, Databases and Web
                   Development. I completed my undergraduate in computer science.
                   I have a few years of experience working as an Automation Test
-                  Engineer.
+                  Engineer. I would like to build my profile in Artifical
+                  Intelligence/ Machine learning domain.
                 </p>
                 <p>
                   I like cooking, hiking, binge watching. I like watching
@@ -96,22 +89,25 @@
           </div>
         </section>
       </div>
-      <!-----Resume---->
+      <!--Resume-->
       <section id="resume">
         <h2>Resume</h2>
-
         <div class="education">
           <h3>Education:</h3>
           <div class="resume_ul">
             <div class="resume_li">
-              <div class = "head1">Portland State University</div>
-              <div class = "head2">Masters in Computer Science</div>
-              <div class = "head2">2022-present</div>
+              <div class="head1">Portland State University</div>
+              <div class="head2">Masters in Computer Science</div>
+              <div class="head2">2022 - present</div>
             </div>
             <div class="resume_li">
-              <div class = "head1">Mahatma Gandhi College of Engineering,India</div>
-              <div class = "head2">Bachelor of Engineering in Computer Science</div>
-              <div class = "head2">2012 - 2016</div>
+              <div class="head1">
+                Mahatma Gandhi College of Engineering,India
+              </div>
+              <div class="head2">
+                Bachelor of Engineering in Computer Science
+              </div>
+              <div class="head2">2012 - 2016</div>
             </div>
           </div>
         </div>
@@ -211,8 +207,7 @@
           </div>
         </div>
       </section>
-
-      <!--- Project ---->
+      <!-- Project -->
       <section id="project">
         <h2>Projects</h2>
         <div class="container w-100">
@@ -229,14 +224,18 @@
                 />
                 <div class="card-body">
                   <div class="card-title head1">KNN Classifer</div>
-
                   <p class="card-text">
                     K Nearest Neighbours(KNN) is a supervised learning algorithm
                     used for classification and regression predictive problems.
                     In this project KNN is implemented in python for breast
                     cancer detection.
                   </p>
-                  <a href="https://github.com/Yashaswi0506/KNN_BREAST-CANCER-DETECTION" target="_blank" class="btn btn-primary">Git Repository</a>
+                  <a
+                    href="https://github.com/Yashaswi0506/KNN_BREAST-CANCER-DETECTION"
+                    target="_blank"
+                    class="btn btn-primary"
+                    >Git Repository</a
+                  >
                 </div>
               </div>
             </div>
@@ -249,8 +248,9 @@
                   alt="Shopping cart project"
                 />
                 <div class="card-body">
-                  <div class="card-title head1">Online Shopping Prodcut Database</div>
-
+                  <div class="card-title head1">
+                    Online Shopping Prodcut Database
+                  </div>
                   <p class="card-text">
                     This project contains normalized products, customers and
                     orders database of a clothing application with views and
@@ -266,7 +266,6 @@
                 </div>
               </div>
             </div>
-
             <div class="col-lg-4 gy-3">
               <div class="card h-100">
                 <div class="header p-2 fw-bold">Project 3</div>
@@ -281,8 +280,7 @@
                     The College bot is an application that answers users’
                     queries. The System takes user input , processes the query
                     using stemming porter algorithm and searches the answer in
-                    the database using keywords extracted by porter stemming
-                    algorithm
+                    the database using keywords.
                   </p>
                   <a
                     href="https://github.com/Yashaswi0506/College-Enquiry-Chatbot"
@@ -296,7 +294,7 @@
           </div>
         </div>
       </section>
-      <!----------------FORM-------------------->
+      <!--FORM-->
       <section id="contact">
         <h2>Contact Me</h2>
         <form>
@@ -304,7 +302,6 @@
             <label for="username" class="col-md-4 col-form-label"
               >Username:</label
             >
-
             <div class="col-md-8">
               <input
                 type="text"
@@ -325,14 +322,13 @@
               />
             </div>
           </div>
-
           <div class="form-group mb-3">
             <label class="mb-1" for="message">Message:</label>
             <textarea
               class="form-control"
               id="message"
               rows="3"
-              placeholder="Enter your message"
+              placeholder="Enter your message (Enter atleast 5 words)"
             ></textarea>
           </div>
           <div id="error" class="mb-3"></div>
