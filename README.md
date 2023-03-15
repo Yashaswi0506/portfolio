@@ -23,7 +23,7 @@ Web Development Project
 6. bootstrap
 7. Resume
 8. Projects
-9. Form - hover
+9. Form
 
 
 
@@ -34,5 +34,7 @@ icons
 
 ---Issues----
 1. html : button not compatible with div
+2. git small
+3. work exp : small responsivness
+4. check spacing
 
-1.change 

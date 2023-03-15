@@ -1,8 +1,6 @@
 * {
   margin: 0;
   padding: 0;
-  
-  
 }
 
 :root {
@@ -16,9 +14,8 @@
   --indigo3: #ebe9fb;
   --indigo2: #d7d4f7;
 }
+
 /*-----------------navbar---------------*/
-
-
 .ul_class {
   margin: 0;
   padding: 0;
@@ -28,7 +25,6 @@
   padding-right: 15px;
   width: 100%;
   z-index: 99999;
-  
 }
 
 .bar {
@@ -119,7 +115,6 @@ section > h2 {
 
 .info {
   font-size: 1.1em;
-  
 }
 
 /*--------resume------------*/
@@ -129,15 +124,16 @@ section > h2 {
   padding: 0 20px;
 }
 
+h1,
 h3 {
   font-size: 25px;
 }
 
-h5 {
+.head1 {
   font-size: 20px;
 }
 
-h6,
+.head2,
 .year {
   font-size: 18px;
 }
@@ -219,7 +215,7 @@ h6,
   margin: auto;
 }
 
-.card-body > h5 {
+.card-body > .head1 {
   color: var(--indigo);
 }
 
@@ -315,15 +311,7 @@ footer {
   justify-content: flex-end;
 }
 
-.logo :hover {
-  border: 0.2em solid #6357e0;
-  transform: translateY(-2px);
-}
 
-.logo :focus {
-  border: 0.2em solid #6357e0;
-  transform: translateY(-2px);
-}
 
 /*---------------media queries-------------*/
 @media (max-width: 757px) {
@@ -350,18 +338,21 @@ footer {
   }
 
   .picture > img {
-    width: 250px;
-    height: 250px;
-  }
+    
+      height: 55%;
+      width: 55%;
+     }
+  
+  h1,
   h3 {
     font-size: 22px;
   }
 
-  h5 {
+  .head1 {
     font-size: 18px;
   }
 
-  h6,
+  .head2,
   .year {
     font-size: 16px;
   }
@@ -372,18 +363,6 @@ footer {
   .logo > img {
     width: 35px;
     height: 35px;
-  }
-
-  .one {
-    font-size: 1, 25rem;
-  }
-
-  .two {
-    font-size: 15px;
-  }
-
-  .three {
-    font-size: 15px;
   }
 
   .accordion-button > span {
@@ -420,26 +399,16 @@ footer {
     font-size: 22px;
   }
 
+  h1,
   h3 {
     font-size: 18px;
   }
-  .one {
+
+  .head1 {
     font-size: 16px;
   }
 
-  .two {
-    font-size: 14px;
-  }
-
-  .three {
-    font-size: 14px;
-  }
-
-  h5 {
-    font-size: 16px;
-  }
-
-  h6,
+  .head2,
   .year {
     font-size: 14px;
   }
@@ -467,7 +436,6 @@ footer {
     flex-direction: column;
     background-color: var(--indigo);
     width: 100%;
-    text-align: center;
     align-items: center;
     transition: 0.3s;
   }
@@ -545,3 +513,6 @@ footer {
     width: 100%;
   }
 }
+
+
+
