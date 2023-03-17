@@ -1,7 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: 'Mukta', sans-serif;
+  font-family: "Mukta", sans-serif;
 }
 
 :root {
@@ -176,7 +176,7 @@ h3 {
 }
 
 .accordion-item:hover {
-  box-shadow: 0px 4px 15px 0px #d7d4f7;
+  box-shadow: 0px 4px 15px 0px var(--indigo2);
   border: 5px solid var(--indigo3);
 }
 
@@ -250,7 +250,7 @@ h3 {
   color: var(--black);
 }
 
-/*--------------------Form-----*/
+/*--Form--*/
 
 form {
   margin: 0 15%;
@@ -300,7 +300,7 @@ form {
   color: var(--black);
 }
 
-/*******---footer------------------------------*/
+/*--footer--*/
 footer {
   margin: 0 20px 20px 0;
 }
@@ -309,6 +309,14 @@ footer {
   display: flex;
   gap: 20px;
   justify-content: flex-end;
+}
+
+.logo > img {
+  transition: all 0.2s ease-in-out;
+}
+
+.logo > img:hover {
+  transform: scale(1.1);
 }
 
 /*---------------media queries-------------*/
@@ -420,7 +428,7 @@ footer {
     width: 100%;
     justify-content: center;
     flex-direction: column;
-    background-color: white;
+    background-color: var(--white);
     border: none;
     padding: 10px;
   }

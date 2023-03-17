@@ -49,7 +49,6 @@ function handleClick(event) {
   if (error.textContent === "") {
     error.innerHTML = "Form Submitted Successfully";
     error.style.color = "green";
-    event.preventDefault();
   }
 }
 reset.addEventListener("click", handleClick1);
