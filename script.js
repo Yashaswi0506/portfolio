@@ -47,6 +47,7 @@ function handleClick(event) {
   }
 
   if (error.textContent === "") {
+    event.preventDefault();
     error.innerHTML = "Form Submitted Successfully";
     error.style.color = "green";
   }
