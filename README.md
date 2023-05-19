@@ -1,6 +1,6 @@
 This site is developed in HTML , CSS , Javascript and Bootstrap. It is a single page webstite.
 
-The personal website is deployed at : https://yashaswi0506.github.io/webdevelpment_project/
+The personal website is deployed at : https://yashaswi0506.github.io/portfolio/
 
 To run this project click on index.html or open index.html using browser or click deployment link
 
